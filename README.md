@@ -43,15 +43,8 @@ To run the code, you will need:
 
    ```R
    # in alphabetical order:
-   pkgs <- c(
-  "tidyverse", "psych",       # Basic tools
-  "MVN", "easystats",         # Checking data
-  "lavaan",                   # Building models
-  "semTools",                 # Checking models
-  "semPlot",                  # Visualisation
-  "apaTables",                # Reporting
-  "here"                      # File finder
-   )
+   pkgs <- c("tidyverse", "psych","MVN", "easystats", "lavaan", "semTools","semPlot",
+  "apaTables", "here" )
 
    install.packages(pkgs, repos = c("https://easystats.r-universe.dev", getOption("repos")))
 
